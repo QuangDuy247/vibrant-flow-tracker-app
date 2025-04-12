@@ -1,4 +1,3 @@
-
 import DashboardLayout from "@/components/DashboardLayout";
 import StatCard from "@/components/StatCard";
 import ProjectCard from "@/components/ProjectCard";
@@ -52,7 +51,7 @@ const Dashboard = () => {
       amount: 5000,
       category: "Income",
       date: "Today, 13:45 PM",
-      type: "income"
+      type: "income" as const
     },
     {
       id: "2",
@@ -60,7 +59,7 @@ const Dashboard = () => {
       amount: 125.30,
       category: "Office",
       date: "Yesterday, 11:20 AM",
-      type: "expense"
+      type: "expense" as const
     },
     {
       id: "3",
@@ -68,7 +67,7 @@ const Dashboard = () => {
       amount: 49.99,
       category: "Software",
       date: "Jul 10, 2025, 09:30 AM",
-      type: "expense"
+      type: "expense" as const
     },
     {
       id: "4",
@@ -76,7 +75,7 @@ const Dashboard = () => {
       amount: 1250,
       category: "Income",
       date: "Jul 8, 2025, 15:10 PM",
-      type: "income"
+      type: "income" as const
     },
     {
       id: "5",
@@ -84,7 +83,7 @@ const Dashboard = () => {
       amount: 350,
       category: "Marketing",
       date: "Jul 5, 2025, 10:15 AM",
-      type: "expense"
+      type: "expense" as const
     }
   ];
 
