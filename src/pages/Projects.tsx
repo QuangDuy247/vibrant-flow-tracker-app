@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import DashboardLayout from "@/components/DashboardLayout";
 import { 
@@ -268,7 +267,7 @@ const Projects = () => {
                       <Badge
                         variant={
                           project.status === "completed" 
-                            ? "success"
+                            ? "default"
                             : project.priority === "high" 
                               ? "destructive" 
                               : "default"
