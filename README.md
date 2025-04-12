@@ -30,7 +30,7 @@ git clone <https://github.com/QuangDuy247/vibrant-flow-tracker-app>
 cd <vibrant-flow-tracker-app>
 
 # Step 3: Install the necessary dependencies.
-npm i
+npm install
 
 # Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
